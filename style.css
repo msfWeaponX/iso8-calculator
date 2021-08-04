@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:15px;
+	color:white;
+	background:#1f8793;
+}
+.img-banner{
+	width:100%;
+	background-image: url(widebackground.jpeg);
+	background-size: cover;
+	min-height: 350px;
+	margin-bottom: .2rem;
+}
+img{
+	width:100%;
+	
+}
+main{
+	background-image: url(msfbackground.jpeg);
+	background-size: cover;
+	background-color: rgb(71, 71, 71);
+	background-blend-mode: overlay;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom:6rem;
+}
+h1{
+	font-size:1rem;
+	padding:2rem;
+}
+ .hidden {
+	display:flex;
+}
+.crystal-container{
+	display:flex;
+} 
+.input-container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.isoInput{
+	display:flex;
+}
+.isoInput label{
+	font-size:.8rem;
+	display: flex;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	width:5rem;
+	margin-right:1rem;
+}
+input{
+	display:flex;
+	padding:1rem;
+	margin:1rem;
+	height:2rem;
+	width:12rem;
+}
+.btn{
+	font-size: 1.4rem;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	border:3px solid black;
+	color:white;
+	background:#ff9d00;
+	font-weight:bold;
+	height:50px;
+	width:150px;
+	border-radius:5px;
+	padding:1rem;
+	margin:2rem;
+}
+.btn:hover{
+	cursor: pointer;
+}
+h2{
+	font-size: 1.2rem;
+	margin:1rem;
+}
+#healthResult{
+	color:green;
+}
+#armorResult{
+	color:blue;
+}
+#focusResult{
+	color:red;
+}
+#damageResult{
+	color:orange
+}
+#resistResult{
+	color:blanchedalmond
+}
+@media screen and (max-width:600px){
+	.img-banner{
+		display:none;
+	}
+	h1{
+		margin-top:1.5rem;
+		padding:2rem;
+	}
+}
