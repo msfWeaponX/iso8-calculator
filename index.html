@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>iso8 Calculator</title>
+</head>
+<body>
+	<main>
+		<div class="input-container crystal-container">
+			<h1>What level are your iso crystals?</h1>
+			
+			<div class="isoInput">
+				<label>Health:</label>
+				<input type="text" name="" class="hidden" id="health" placeholder="enter health iso8 level"> <!-- not yet in use-->
+			</div>
+			<div class="isoInput">
+				<label>Armor:</label>
+				<input type="text" name="" class="hidden" id="armor" placeholder="enter armor iso8 level">
+			</div>
+			<div class="isoInput">
+				<label>Focus:</label>
+				<input type="text" name="" class="hidden" id="focus" placeholder="enter focus iso8 level">
+			</div>
+			<div class="isoInput">
+				<label>Damage:</label>
+				<input type="text" name="" class="hidden" id="damage" placeholder="enter damage iso8 level">
+			</div>
+			<div class="isoInput">
+				<label>Resist:</label>
+				<input type="text" name="" class="hidden" id="resist" placeholder="enter resist iso8 level">
+			</div>
+		</div>
+		<div class="input-container">	
+			
+			<div class="btn-container">
+				<button class="btn" id="btn" type="button" name="button">Calculate</button>
+			</div>
+		</div>
+		<h2 id="healthResult"></h2>
+    		<h2 id="armorResult"></h2>
+		<h2 id="focusResult"></h2>
+    		<h2 id="damageResult"></h2>
+    		<h2 id="resistResult"></h2>
+		<h2 id="totalIons"></h2>
+	</main>	
+	<script type="text/javascript" src="calc2.js"></script>
+</body>
+</html>
